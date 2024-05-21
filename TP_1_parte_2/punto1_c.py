@@ -25,6 +25,9 @@ for tiempo_muestra in vector_tiempo_de_muestra:
 senial_seno_1 = np.array(senial_seno_1)
 senial_seno_2 = np.array(senial_seno_2)
 
+fig = plt.gcf()
+fig.set_size_inches(18.5,10.5)
+
 plt.plot(vector_tiempo_de_muestra, senial_seno_1)
 plt.plot(vector_tiempo_de_muestra, senial_seno_2)
 plt.xlabel("Tiempo [s]")
